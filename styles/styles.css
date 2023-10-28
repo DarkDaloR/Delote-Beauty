@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Cormorant Garamond",sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+}
+.main-page{
+    background-image:url("../images/background_img.png");
+    background-position: top center ;
+    height: 1038px;
+    max-width: 1920px;
+}
+.main-page__header{
+    position: fixed;
+    height: 100px;
+    width: 1300px;
+    padding-right: 312px;
+    padding-left: 312px;
+    z-index: 20;
+}
+.main-page__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.main-page__insta-logo{
+    width: 24px;
+    height: 24px;
+    top: 7px;
+}
+.main-page__main-logo{
+    width: 40px;
+    height: 40px;
+}
+ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+.active{
+    color: #CDAA7D;
+}
+.hero-content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-title{
+    font-size: 72px;
+    font-weight: 700;
+
+}
+.hero-scroll{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    bottom: 102px;
+}

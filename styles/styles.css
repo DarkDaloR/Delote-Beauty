@@ -9,6 +9,11 @@ body{
     width: 100%;
     background-color: #111111;
 }
+.container{
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .main-page{
     background-image:url("../images/background_img.png");
     background-position: top center ;
@@ -23,12 +28,13 @@ body{
     padding-left: 312px;
     z-index: 20;
 }
-.main-page__container{
+.main-page__content{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 30px;
     padding-top: 30px;
     margin: 0 auto;
 }
@@ -73,4 +79,22 @@ li a{
     align-items: center;
     gap: 20px;
     bottom: 102px;
+}
+.about-us{
+    padding-top: 120px;
+    padding-bottom: 95px;
+}
+.about-us__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.about-us__logo{
+    padding-bottom: 60px;
+}
+.about-us__content__info{
+    font-size: 27px;
+    line-height: 130%;
+    font-weight: 700;
 }
